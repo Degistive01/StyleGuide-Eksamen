@@ -144,3 +144,32 @@ pre code {
     font-family: arial;
     font-size: 20px;
 }
+
+.ikoner {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-youtube {
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: #9FA0A4;
+}
+
+.fa-instagram:hover {
+    color: #9FA0A4;
+}
+
+.fa-youtube:hover {
+    color: #9FA0A4;
+}
