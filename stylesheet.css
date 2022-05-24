@@ -129,3 +129,18 @@ pre code {
 .margin-farver {
     margin-top: -30px;
 }
+
+.mainheader {
+    font-family: arial Rounded MT;
+    font-size: 50px;
+}
+
+.supheader {
+    font-family: arial Rounded MT;
+    font-size: 30px;
+}
+
+.paragraf {
+    font-family: arial;
+    font-size: 20px;
+}
