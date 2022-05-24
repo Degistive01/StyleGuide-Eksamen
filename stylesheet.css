@@ -1,236 +1,106 @@
-/*Grundlæggende indhold*/
-
-body {
-    background-color: white;
-    margin: 0px;
-}
-
-
-/*Selve header - logo - overskrift*/
-
-.header {
-    width: 100%;
-    height: 250px;
-    margin-bottom: 20px;
-    background-color: #3DCD58;
-    overflow: hidden;
-}
-
-.logo {
-    float: left;
-    width: 10%;
-}
-
-.overskrift {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 3vw;
-}
-
-
-/*Div til venstre, som indeholder vores navbar*/
-
-.side {
-    width: 25%;
-    padding-top: 2%;
-    display: inline-start;
-}
-
-
-/*Grundlæggende for navbar*/
-
-.topnav1 {
-    overflow: hidden;
-    background-color: #eee;
-    display: block;
-    padding: 20px;
-}
-
-.precode {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-}
-
-.imgwidth {
-    width: 200px;
-}
-
-.paragraf {
-    font-family: Arial;
-}
-
-
-/*Designet navbar*/
-
-.topnav1 a {
-    width: 100%;
-    float: right;
-    background-color: #42B4E6;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1, 5vw;
-    margin: 5px;
-    border: 2px solid rgb(0, 69, 78);
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-
-/*Når musen er over en knap i navn bar, skifter knappen farve og får en baggrundsskygge*/
-
-.topnav1 a:hover {
-    border-radius: 12px;
-    background-color: #3087AD;
-    color: rgb(0, 69, 78);
-}
-
-
-/*Når du er inde under en knap, er farven ændret fast*/
-
-.topnav1 a.active {
-    background-color: rgb(61, 205, 88);
-    color: rgb(0, 69, 78);
-    border-radius: 12px;
-}
-
-
-/*Div til højre - herunder vores funktioner med kode kommer*/
-
-.row {
-    width: 70%;
-    float: right;
-    padding: 5%;
-    margin-top: -570px;
-}
-
-
-/*Eksempler: Knapper*/
-
-.topnav1 a.button1 {
-    width: 20%;
-    display: inline-start;
-    float: left;
-    background-color: #42B4E6;
-}
-
-.topnav1 a.button1:hover {
-    background-color: #3087AD;
-}
-
-.tekst {
-    display: inline-block;
-    vertical-align: top;
-    font-family: Arial;
-}
-
-
-/*vores footer*/
-
-.bund {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    background-color: #626469;
-    color: rgb(255, 255, 255);
-    font-size: 1vw;
-    padding: 5px;
-    margin-top: 200px;
-}
-
-#page-container1 {
-    position: relative;
-    min-height: 55vh;
-}
-
-#page-container {
-    position: relative;
-    min-height: 50vh;
-}
-
-#page-container3 {
-    position: relative;
-    min-height: 20vh;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-@media screen and (max-width: 1440px) {
+    body {
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+    }
+    
     .header {
-        height: 200px;
-    }
-    .row {
-        margin-top: -543px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        height: 150px;
-    }
-    #page-container3 {
-        min-height: 0vh;
-    }
-    .row {
-        margin-top: -535px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        height: 120px;
-    }
-    #page-container3 {
-        min-height: -100vh;
-    }
-    #page-container1 {
-        min-height: 60vh;
-    }
-    .row {
-        margin-top: -530px;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    .header {
-        height: 80px;
-    }
-    #page-container3 {
-        min-height: -100vh;
-    }
-    .row {
-        margin-top: -523px;
-    }
-    .navbar {
         width: 100%;
-        height: 50px;
+        height: 250px;
+        margin-bottom: 20px;
+        background-color: #3DCD58;
+        overflow: hidden;
     }
-    a.btn {
-        font-size: 10px;
+    
+    .logo {
+        float: left;
+        width: 10%;
     }
-    button {
-        font-size: 10px;
+    
+    .overskrift {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3vw;
     }
-    form.søg input[type=text] {
-        font-size: 10px;
-        width: 100px;
+    
+    #page-container3 {
+        position: relative;
+        min-height: 20vh;
     }
-    .fa-search:before {
-        font-size: 10px;
+    
+    .bund {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: #626469;
+        color: rgb(255, 255, 255);
+        font-size: 1vw;
+        padding: 5px;
+        margin-top: 200px;
     }
-    form.søg button {
-        margin-top: 5px;
-        padding: 0px;
+    
+    * {
+        box-sizing: border-box;
     }
-}
-
-@media screen and (max-width: 376px) {
-    .header {
-        height: 60px;
+    /* The side navigation menu */
+    
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        left: 0;
+        background-color: #111;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
     }
-}
+    /* The navigation menu links */
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    /* When you mouse over the navigation links, change their color */
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    /* Position and style the close button (top right corner) */
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
