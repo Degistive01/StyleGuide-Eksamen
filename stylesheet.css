@@ -28,7 +28,7 @@
        padding: 0;
        width: 200px;
        background-color: #f1f1f1;
-       height: 100%;
+       height: auto;
        overflow: auto;
        position: absolute;
    }
@@ -50,4 +50,28 @@
        margin-left: 25%;
        padding: 1px 16px;
        height: 1000px;
+   }
+   
+   .knap {
+       background-color: #42B4E6;
+       border: none;
+       color: white;
+       padding: 20px;
+       text-align: center;
+       text-decoration: none;
+       font-size: 16px;
+       border-radius: 10px;
+       width: 270px;
+   }
+   
+   .knap:hover {
+       background-color: #3087AD;
+       cursor: pointer;
+   }
+   
+   pre code {
+       background-color: #eee;
+       border: 1px solid #999;
+       display: block;
+       padding: 20px;
    }
