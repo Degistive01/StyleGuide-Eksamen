@@ -157,15 +157,27 @@ pre code {
 }
 
 .fa-facebook {
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #626469;
+    padding: 20px;
+    min-width: 40px;
+    text-align: center;
 }
 
 .fa-instagram {
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #626469;
+    padding: 20px;
+    min-width: 40px;
+    text-align: center;
 }
 
 .fa-youtube {
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #626469;
+    padding: 20px;
+    min-width: 40px;
+    text-align: center;
 }
 
 .fa-facebook:hover {
