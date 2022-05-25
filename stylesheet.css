@@ -192,18 +192,6 @@ pre code {
     color: #9FA0A4;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .logofooter {
     background-color: #626469;
 }
